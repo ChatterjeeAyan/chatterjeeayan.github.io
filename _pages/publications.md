@@ -16,22 +16,22 @@ author_profile: true
 {% endfor %}
 
 
-## Essays and Blog Posts
-{% include base_path %}
+*## Essays and Blog Posts
+*{% include base_path %}
 
-{% for post in site.blog-posts reversed %}
-  {% include archive-single-publication.html %}
-{% endfor %}
+*{% for post in site.blog-posts reversed %}
+*  {% include archive-single-publication.html %}
+*{% endfor %}
 
-<!-- # Write-ups 
-{% for post in site.writeups reversed %}
-  {% include archive-single-publication.html %}
-{% endfor %} -->
+*<!-- # Write-ups 
+*{% for post in site.writeups reversed %}
+*  {% include archive-single-publication.html %}
+*{% endfor %} -->
 
-Archives of my sports reporting for The Daily Princetonian are available [here](https://www.dailyprincetonian.com/staff/david-liu).
+*Archives of my sports reporting for The Daily Princetonian are available [here](https://www.dailyprincetonian.com/staff/david-liu).
 
-<!-- # Daily Princetonian
-For three years, I wrote for the sports section of the Daily Princetonian. During that time, I covered daily sports news, interviewed notable alumni, and started a data analytics sports column. The complete list can be found on the [Daily Princetonian site.](http://dailyprincetonian.com/author/dml3/)
+*<!-- # Daily Princetonian
+*For three years, I wrote for the sports section of the Daily Princetonian. During that time, I covered daily sports news, interviewed notable alumni, and started a data analytics sports column. The complete list can be found on the [Daily Princetonian site.](http://dailyprincetonian.com/author/dml3/)
 
 * [Women’s basketball home-game attendance correlated with success](http://www.dailyprincetonian.com/article/2017/04/womens-basketball-home-game-attendance-correlated-with-success)
 
