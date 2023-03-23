@@ -1,7 +1,7 @@
 ---
 title: "AI-Bind: Improving Binding Predictions for Novel Protein Targets and Ligands"
 collection: publications
-permalink: /publication/stable
+permalink: /publication/AI-Bind
 paperurl: '/files/papers/AI-Bind.pdf'
 project-site: '/publication/AI-Bind'
 citation: "<b>Ayan Chatterjee, Robin Walters, Zohair Shafi, Omair Shafi Ahmed, Michael Sebek, Deisy Gysi, Rose Yu, Tina Eliassi-Rad, Albert-László Barabási, and Giulia Menichetti. 2021. <i> AI-Bind: Improving Binding Predictions for Novel Protein Targets and Ligand<\i>. Nature Communications. 
