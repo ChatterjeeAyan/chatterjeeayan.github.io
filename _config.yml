@@ -179,7 +179,7 @@ collections:
     output: true
     permalink: /:collection/:path/
   publications:
-    output: false
+    output: true
     permalink: /:collection/:path/
   writeups:
     output: true
@@ -230,9 +230,9 @@ defaults:
       type: publications
     values:
       layout: single
-      author_profile: false
+      author_profile: true
       share: true
-      comments: false
+      comments: true
   # _portfolio
   - scope:
       path: ""
