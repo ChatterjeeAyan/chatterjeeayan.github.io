@@ -1,0 +1,23 @@
+---
+layout: archive
+title: "Projects"
+permalink: /projects/
+author_profile: true
+---
+
+{% include base_path %}
+
+Below are links to my GitHub organizations, company site, and featured repositories. For more detail you can click through the cards below or visit the links directly.
+
+<ul>
+  <li><a href="https://github.com/ChatterjeeAyan?tab=repositories">Personal GitHub repositories</a></li>
+  <li><a href="https://github.com/insAnalytics">insAnalytics organization</a></li>
+  <li><a href="https://github.com/orgs/BioClarity-AI/repositories">BioClarity-AI GitHub organization</a></li>
+  <li><a href="https://github.com/ITrakNeuro">ITrakNeuro organization</a></li>
+  <li><a href="https://www.bioclarity.ai/">BioClarity AI company website</a></li>
+</ul>
+
+{% for post in site.portfolio %}
+  {% include archive-single.html %}
+{% endfor %}
+

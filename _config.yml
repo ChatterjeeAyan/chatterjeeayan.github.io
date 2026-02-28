@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Ayan Chatterjee"
 title_separator          : "-"
 name                     : &name "ayan Chatterjee"
-description              : &description "Founder at BioClarity AI. Co-founder at ITrakNeuro Inc."
+description              : &description "Entrepreneur & AI researcher (network science, computational biology). Founder at BioClarity AI; co-founder at ITrakNeuro Inc."
 url                      : https://chatterjeeayan.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "ChatterjeeAyan/chatterjeeayan.github.io"
@@ -89,7 +89,7 @@ author:
   googlescholar    : "https://scholar.google.com/citations?user=jQWO9kgAAAAJ&hl=en"
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
-  uri              :
+  uri              : "https://www.bioclarity.ai/"
   bitbucket        :
   codepen          :
   dribbble         :
