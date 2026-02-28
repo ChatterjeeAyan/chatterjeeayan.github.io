@@ -12,15 +12,13 @@ header:
   caption: "Entrepreneur • AI researcher • Ph.D. in network science"
 ---
 
-I'm the founder and CEO of [BioClarity AI](https://www.bioclarity.ai/), where we combine machine learning with biological data to accelerate gene therapy and editing research. I co-founded ITrakNeuro Inc., a startup building AI-powered cancer diagnostic tools, and consult on AI for gene therapy with Alexion AstraZeneca Rare Disease.
+I'm the founder and CEO of [BioClarity AI](https://www.bioclarity.ai/), where we combine machine learning with biological data to accelerate gene therapy and editing research. I hold deep expertise in building AI tools for computational biology and also consult on AI for gene therapy with Alexion AstraZeneca Rare Disease.
 
 ### Quick links
 
 • [Google Scholar](https://scholar.google.com/citations?user=jQWO9kgAAAAJ&hl=en)
 • [GitHub (personal)](https://github.com/ChatterjeeAyan)
-• [insAnalytics org](https://github.com/insAnalytics)
 • [BioClarity-AI org](https://github.com/orgs/BioClarity-AI/repositories)
-• [ITrakNeuro](https://github.com/ITrakNeuro) (private)
 • [BioClarity AI website](https://www.bioclarity.ai/)
 
 ### Areas of expertise
