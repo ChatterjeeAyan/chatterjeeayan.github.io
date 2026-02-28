@@ -7,17 +7,25 @@ author_profile: true
 
 {% include base_path %}
 
-Below are links to my GitHub organizations, company site, and featured repositories. For more detail you can click through the cards below or visit the links directly.
-
-<ul>
-  <li><a href="https://github.com/ChatterjeeAyan?tab=repositories">Personal GitHub repositories</a></li>
-  <li><a href="https://github.com/insAnalytics">insAnalytics organization</a></li>
-  <li><a href="https://github.com/orgs/BioClarity-AI/repositories">BioClarity-AI GitHub organization</a></li>
-  <li><a href="https://github.com/ITrakNeuro">ITrakNeuro organization</a></li>
-  <li><a href="https://www.bioclarity.ai/">BioClarity AI company website</a></li>
-</ul>
+I maintain several codebases spanning academic research and commercial ventures. Browse the cards below for representative projects or read the descriptions that follow.
 
 {% for post in site.portfolio %}
-  {% include archive-single.html %}
+  {% include archive-single.html type="grid" %}
 {% endfor %}
+
+### Organisation summaries
+
+* **BioClarity‑AI** – company repositories, currently including the public website (`BCAI_Site`) and various internal analytics tools that underpin our AI‑driven gene therapy platform.
+* **insAnalytics** – open‑source and client‑facing projects such as `insanalytics-learn` (TypeScript learning platform), `Ollama_RAG` (local RAG chatbot), plus utilities for industry partners.
+* **ITrakNeuro** – private organisation developing cancer‑diagnostics pipelines; source code is not publicly visible.
+
+### Selected personal repositories
+
+* **fm4tlp** – transfer learning for temporal link prediction on dynamic graphs.
+* **AI-Bind** – interpretable machine‑learning pipeline to improve protein‑ligand binding predictions in drug discovery workflows.
+* **ILP** – inductive link prediction algorithms suited for graphs with isolated and temporal nodes.
+* **MultiViz** – Gephi plugin enabling visualisation of multilayer network structures.
+* **Exploratory notebooks** (`UPNA`, `inductive_biases`, `observational-bias`, etc.) investigating graph neural network behavior and biases.
+
+For the complete catalogue, visit my [personal GitHub profile](https://github.com/ChatterjeeAyan?tab=repositories).
 
