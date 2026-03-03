@@ -7,27 +7,78 @@ author_profile: true
 
 {% include base_path %}
 
-I am the Founder and CEO of **BioClarity AI**, where we build AI tools for gene therapy research and development. Below is a selection of my key projects and selected publications from my research career.
-
-{% for post in site.portfolio %}
-  {% include archive-single.html type="grid" %}
-{% endfor %}
+I am the Founder and CEO of **[BioClarity AI](https://www.bioclarity.ai/)**, where we build AI tools for gene therapy
+research and development. Below is a curated selection of my key research projects spanning computational biology, graph
+machine learning, and network science.
 
 ---
 
-## Key Projects & Selected Publications
+## BioClarity AI
 
-**AI-Bind: Interpretable ML for Protein-Ligand Binding**
-AI-Bind is a deep-learning pipeline designed to improve predictions for how novel protein targets and ligands bind to each other. It overcomes the limitations of traditional models by combining network-based sampling strategies with unsupervised pre-training, leading to more accurate binding predictions. It also offers an interpretable approach to predictions by identifying potential active binding sites on the amino acid sequence, significantly accelerating drug discovery.
+**Accelerating Gene Therapy with AI**
 
-**Inductive Link Prediction for Isolated Nodes (ILP)**
-This research tackles the challenge of predicting links for newly introduced or isolated nodes in both static and temporal graphs. Many state-of-the-art models struggle with low-degree nodes due to observation bias and reliance on topological neighborhoods. ILP proposes a training approach using unsupervised pre-training on large corpora to generate informative attributes, enhancing the overall generalizability and accuracy of inductive link predictions.
+BioClarity AI develops next-generation machine learning tools to transform gene therapy research and development. Our
+platform integrates biological knowledge graphs, protein interaction networks, and multi-modal data to support target
+identification, off-target risk assessment, and drug candidate prioritization. The company works at the intersection of
+network science, large language models, and computational biology to accelerate the path from bench to clinic for rare
+and genetic diseases.
 
-**Transfer Learning for Temporal Link Prediction (fm4tlp)**
-This project explores transfer learning methodologies to improve link prediction in dynamic and evolving networks. By leveraging models pre-trained on diverse network structures, it enhances the prediction of temporal connections even when longitudinal data is sparse, providing stronger predictive performance over traditional baseline approaches.
+---
 
-**MultiViz: Gephi Plugin for Multilayer Networks**
-MultiViz is a specialized plugin for Gephi that enables the scalable visualization and analysis of multilayer networks. Multilayer networks capture complex systems where nodes can interact across multiple dimensions or contexts. This tool assists researchers in visualizing these interconnected systems and easily deriving insights from graph-based data structures without writing custom rendering code.
+## Research Projects
 
-See [my GitHub profile](https://github.com/ChatterjeeAyan) or Google Scholar for the full list of repositories, publications, and scientific contributions.
+### AI-Bind — Interpretable ML for Protein-Ligand Binding
+Predicting how drug-like molecules bind to protein targets is a fundamental challenge in early-stage drug discovery.
+AI-Bind is a deep-learning pipeline that improves binding predictions for novel protein targets and ligands by combining
+**network-based negative sampling** with **unsupervised molecular pre-training**. Unlike existing models that exploit
+topological shortcuts, AI-Bind maximizes inductive generalization and provides interpretable predictions by identifying
+potential active binding sites on amino acid sequences — significantly accelerating the computational drug discovery
+pipeline. Published in *Nature Communications* (2023), 219 citations.
 
+### Topology-Driven Negative Sampling for Protein-Protein Interaction Prediction
+Protein-protein interaction (PPI) prediction underpins therapeutic development, yet graph neural network models often
+learn structural shortcuts rather than biologically meaningful patterns. This work systematically decouples node
+attributes from graph topology, revealing that standard negative sampling creates observational biases that impair
+generalizability. We propose a **topology-driven negative sampling strategy** that forces models to learn interaction
+patterns based on biological features rather than structural artifacts, achieving state-of-the-art generalizability on
+held-out PPI datasets. Published in *Bioinformatics*, Oxford (2025).
+
+### Transfer Learning for Temporal Link Prediction (fm4tlp)
+Dynamic networks evolve continuously, yet link prediction models are typically trained on static snapshots. This project
+develops **transfer learning methodologies** for temporal link prediction, enabling models pre-trained on diverse source
+graphs to generalize to new target graphs with limited historical data. We demonstrate that cross-graph transfer
+provides substantial gains over conventional baselines, particularly in sparse or rapidly-evolving network settings.
+Published at *IJCNN 2025*.
+
+### Inductive Link Prediction for Isolated Nodes
+Most link prediction models fail for newly-introduced or low-degree nodes due to over-reliance on topological
+neighborhoods. This research proposes inductive methods that remain accurate even for **isolated nodes in static and
+temporal graphs**, leveraging unsupervised pre-training to generate rich node representations independent of graph
+structure. The work demonstrates significant improvements in generalization for both newly added nodes and temporal edge
+prediction tasks. Presented at *NeurIPS 2023 Temporal Graph Learning Workshop*.
+
+### Disentangling Node Attributes from Graph Topology
+This paper investigates a fundamental problem in GNN-based link prediction: models tend to memorize network
+configurations rather than learning generalizable node features. We study how to correctly **disentangle topological
+constraints** (path lengths, degree bias) from innate node attributes, and introduce novel formulations for unbiased
+inductive link prediction across unseen environments. The work provides theoretical and empirical insights into the
+nature of observational biases in graph learning. Published at *Complex Networks 2023*.
+
+### SIENNA — Brain Tumor Diagnostics Platform
+SIENNA is a lightweight, generalizable machine learning platform for automated brain tumor diagnostics using MRI data.
+Built in collaboration with Northeastern University and clinical partners, it integrates CNN-based classification with
+efficient preprocessing to enable deployment in resource-constrained clinical environments. SIENNA achieves high
+diagnostic accuracy across diverse tumor types, contributing toward AI-assisted neurosurgical diagnostics. Preprint on
+*medRxiv* (2024).
+
+### MultiViz — Gephi Plugin for Multilayer Networks
+MultiViz is a specialized Gephi plugin enabling scalable visualization and analysis of **multilayer networks** — complex
+systems where nodes interact across multiple dimensions or contexts. The tool lets researchers visualize interconnected
+network layers, compute multilayer centrality metrics, and derive actionable insights without writing custom rendering
+code. Particularly useful for biological networks, social networks, and infrastructural systems.
+
+---
+
+See my [GitHub profile](https://github.com/ChatterjeeAyan) and [Google
+Scholar](https://scholar.google.com/citations?user=jQWO9kgAAAAJ&hl=en) for the full list of repositories and scientific
+contributions.

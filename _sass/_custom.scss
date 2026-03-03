@@ -1,0 +1,351 @@
+/* ==========================================================================
+   MODERN DARK THEME — Custom Overrides
+   ========================================================================== */
+
+/* ---- Global background & typography ---- */
+html,
+body {
+    background-color: #0f1117 !important;
+    color: #cbd5e0;
+}
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* ---- Page content area ---- */
+.page__content {
+    color: #cbd5e0;
+
+    h2 {
+        color: #f1f5f9;
+        font-size: 1.3em;
+        font-weight: 700;
+        margin-top: 2.4em;
+        margin-bottom: 0.6em;
+        padding-bottom: 0.4em;
+        border-bottom: 1px solid rgba(14, 165, 233, 0.25);
+        letter-spacing: -0.01em;
+    }
+
+    h3 {
+        color: #e2e8f0;
+        font-weight: 600;
+    }
+
+    h4 {
+        color: #94a3b8;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
+        font-size: 0.78em;
+        margin-top: 1.8em;
+    }
+
+    p {
+        line-height: 1.75;
+        color: #94a3b8;
+    }
+
+    strong {
+        color: #e2e8f0;
+    }
+
+    a {
+        color: #0ea5e9;
+        text-decoration: none;
+        border-bottom: 1px solid rgba(14, 165, 233, 0.3);
+        transition: border-color 0.2s ease, color 0.2s ease;
+
+        &:hover {
+            color: #38bdf8;
+            border-bottom-color: #38bdf8;
+        }
+    }
+
+    hr {
+        border-top: 1px solid rgba(14, 165, 233, 0.15);
+        margin: 2.5em 0;
+    }
+
+    ul li,
+    ol li {
+        color: #94a3b8;
+        line-height: 1.7;
+    }
+}
+
+/* ---- Page title ---- */
+.page__title {
+    color: #f1f5f9 !important;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+}
+
+/* ---- About / hero intro ---- */
+.page__lead {
+    color: #94a3b8;
+}
+
+/* ---- Archive items (publication cards, etc.) ---- */
+.archive__item {
+    background: #151820;
+    border: 1px solid #1e2536;
+    border-radius: 10px;
+    padding: 1.2em 1.4em;
+    margin-bottom: 1.2em;
+    transition: border-color 0.25s ease, box-shadow 0.25s ease, transform 0.25s ease;
+
+    &:hover {
+        border-color: rgba(14, 165, 233, 0.4);
+        box-shadow: 0 8px 32px rgba(14, 165, 233, 0.1);
+        transform: translateY(-2px);
+    }
+}
+
+.archive__item-title {
+    color: #e2e8f0 !important;
+    font-size: 1em;
+    font-weight: 600;
+    line-height: 1.4;
+
+    a {
+        color: #e2e8f0 !important;
+        text-decoration: none;
+        border-bottom: none;
+
+        &:hover {
+            color: #0ea5e9 !important;
+        }
+    }
+}
+
+.archive__item-excerpt {
+    color: #64748b;
+    font-size: 0.88em;
+    line-height: 1.6;
+    margin-top: 0.5em;
+}
+
+/* ---- Sidebar author card ---- */
+.sidebar {
+    background: transparent;
+
+    .author__name {
+        color: #f1f5f9;
+        font-size: 1.1em;
+        font-weight: 700;
+        letter-spacing: -0.01em;
+    }
+
+    .author__bio {
+        color: #64748b;
+    }
+
+    .author__urls {
+        li {
+            color: #94a3b8;
+        }
+
+        a {
+            color: #94a3b8;
+            font-size: 0.88em;
+
+            &:hover {
+                color: #0ea5e9;
+            }
+        }
+    }
+}
+
+/* ---- Navigation bar ---- */
+.greedy-nav {
+    background: transparent !important;
+
+    a {
+        color: #94a3b8;
+        font-weight: 500;
+
+        &:hover {
+            color: #0ea5e9 !important;
+        }
+    }
+
+    .site-title {
+        color: #f1f5f9 !important;
+        font-weight: 700;
+        font-size: 1.1em;
+        letter-spacing: -0.01em;
+
+        &:hover {
+            color: #0ea5e9 !important;
+        }
+    }
+
+    .visible-links a {
+        color: #94a3b8 !important;
+
+        &:hover,
+        &:focus {
+            color: #0ea5e9 !important;
+        }
+
+        &:before {
+            background: #0ea5e9;
+        }
+    }
+}
+
+/* ---- Main content wrapper ---- */
+#main {
+    background-color: transparent;
+}
+
+/* ---- Page hero (about page header image) ---- */
+.page__hero--overlay {
+    background-color: #080a0f;
+    border-bottom: 1px solid rgba(14, 165, 233, 0.15);
+
+    .page__title,
+    .page__meta,
+    .page__lead {
+        color: #f1f5f9 !important;
+    }
+}
+
+/* ---- Buttons ---- */
+.btn {
+    border-radius: 8px;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    transition: all 0.2s ease;
+
+    &--primary {
+        background: #0ea5e9;
+        border-color: #0ea5e9;
+        color: #fff;
+
+        &:hover {
+            background: #38bdf8;
+            border-color: #38bdf8;
+        }
+    }
+}
+
+/* ---- Publication cards ---- */
+.publication-card {
+    background: #151820;
+    border: 1px solid #1e2536;
+    border-radius: 12px;
+    padding: 1.5em;
+    margin-bottom: 1.5em;
+    transition: all 0.25s ease;
+
+    &:hover {
+        border-color: rgba(14, 165, 233, 0.35);
+        box-shadow: 0 6px 24px rgba(14, 165, 233, 0.12);
+    }
+
+    .pub-title {
+        color: #e2e8f0;
+        font-weight: 700;
+        font-size: 1em;
+    }
+
+    .pub-venue {
+        color: #0ea5e9;
+        font-size: 0.82em;
+        margin-top: 0.3em;
+    }
+
+    .pub-authors {
+        color: #64748b;
+        font-size: 0.82em;
+    }
+}
+
+/* ---- Tables ---- */
+table {
+    background: #151820;
+    border: 1px solid #1e2536;
+    border-radius: 8px;
+    overflow: hidden;
+
+    th {
+        background: #1e2536;
+        color: #e2e8f0;
+    }
+
+    td {
+        color: #94a3b8;
+        border-color: #1e2536;
+    }
+
+    tr:hover td {
+        background: rgba(14, 165, 233, 0.05);
+    }
+}
+
+/* ---- Code blocks ---- */
+pre,
+code {
+    background: #1a202c !important;
+    border-color: #2d3748 !important;
+    color: #a5f3fc;
+    border-radius: 6px;
+}
+
+/* ---- Horizontal rule separator ---- */
+hr {
+    border-top: 1px solid rgba(14, 165, 233, 0.15) !important;
+}
+
+/* ---- Section headers with gradient accent ---- */
+.page__content h2:first-of-type {
+    margin-top: 1em;
+}
+
+/* ---- Scroll indicator gradient at top of page ---- */
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, #0ea5e9, #6366f1, #8b5cf6);
+    z-index: 999;
+}
+
+/* ---- Animations ---- */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.page__content {
+    animation: fadeInUp 0.5s ease both;
+    animation-delay: 0.1s;
+}
+
+/* ---- Author name in sidebar ---- */
+.author__name {
+    color: #f1f5f9 !important;
+    font-weight: 700;
+}
+
+/* ---- Social icons ---- */
+.author__urls a .fas,
+.author__urls a .fab,
+.author__urls a .fa {
+    color: #0ea5e9;
+    margin-right: 6px;
+}
